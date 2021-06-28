@@ -47,20 +47,20 @@ header nav ul li a {
 footer {
   background: #fce138;
   width: 100%
+  padding; 40px 35px;
 }
 
 footer h2 {
   display: inline;
   color: #024e76;
-  font-size: 15px;
+  font-size: 30px;
+  margin: 0;
 }
 
 footer div {
   float: right;
   line-height; 1.5;
   text-align: :right;
-  font-weight: lighter;
-  font-size: 9px;
 }
 
 footer a {
@@ -101,10 +101,6 @@ section {
   margin: 5px 0 15px 0;
 }
 
-.hero-form label {
-  margin: 5px 0;
-}
-
 .form-input {
   border: 1px solid #024e76;
   display: block;
@@ -114,6 +110,11 @@ section {
   width: 100%;
   margin-bottom: 15px;
 }
+
+.hero-form label {
+  margin: 0 5px;
+}
+
 
 .hero-form button {
   color: #fce138;
